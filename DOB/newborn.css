@@ -28,7 +28,7 @@
     transition: padding 0.6s;
 }
 .nav-item .nav-link{
-    color: black;
+    color: #7e7e7e;
     font-size: 17px;
     font-family: 'Montserrat';
     text-transform: uppercase;
@@ -72,7 +72,7 @@
     line-height: 43px;
 }
 .dropdown-menu li a {
-    color: black;
+    color: #7e7e7e;
     text-decoration: none;
     padding-left: 15px;
 }
@@ -233,7 +233,7 @@ a {
   
   .accordion-content {
     padding-left: 2.3125em;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed #7e7e7e;
     margin: 10px;
     text-align: justify;
   }
@@ -447,7 +447,7 @@ input[type=text]:focus, input[type=password]:focus {
     transition: padding 0.6s;
 }
 .nav-item .nav-link{
-    color: black;
+    color: #7e7e7e;
     font-size: 17px;
        font-family: 'Montserrat';
 }
@@ -490,7 +490,7 @@ input[type=text]:focus, input[type=password]:focus {
     line-height: 43px;
 }
 .dropdown-menu li a {
-    color: black;
+    color: #7e7e7e;
     text-decoration: none;
     padding-left: 15px;
 }
@@ -650,7 +650,7 @@ input[type=text]:focus, input[type=password]:focus {
     content: "";
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    border-top: 5px solid black; /* You can change the color to match your design */
+    border-top: 5px solid #7e7e7e; /* You can change the color to match your design */
 }
 
 .btn.btn-outline-dark {
@@ -669,6 +669,12 @@ input[type=text]:focus, input[type=password]:focus {
 }
 .site{
     display: none;
+}
+.footer{
+    padding-top:100px;
+}
+.bat{
+    padding-top:30px;
 }
 }
 

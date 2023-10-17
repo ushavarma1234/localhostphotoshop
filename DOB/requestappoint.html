@@ -31,7 +31,7 @@
                       <a class="nav-link" href="index.html">Home</a>
                   </li>&nbsp;&nbsp;&nbsp;&nbsp;
                   <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-link" href="service.html">Service<span class="caret-down-icon"></span></a>
+                      <a class="nav-link dropdown-link" href="service.html">Services<span class="caret-down-icon"></span></a>
                       <ul class="dropdown-menu">
                         
                           <li><a href="newborn.html">Newborn Photo Session</a></li>
@@ -79,16 +79,19 @@
     </div>
     </div>
 </div>
-    
+
+
+
+
 <div class="container-fluid portfolio">
-    <div class="container">
-      
-        <div class="anchor">
-            <p><a href="index.html">Home</a></p>&nbsp;&nbsp;&nbsp;
-            <i class="fa-solid fa-arrow-right"></i>&nbsp;&nbsp;&nbsp;
-            <p class="active">Request an appointment</p>
-        </div>
-    </div>
+  <div class="container">
+      <h3>REQUEST AN APPOINTMENT</h3>
+      <div class="anchor">
+          <p><a href="index.html">Home</a></p>&nbsp;&nbsp;&nbsp;
+          <i class="fa-solid fa-arrow-right"></i>&nbsp;&nbsp;&nbsp;
+          <p class="active">Request an appointment</p>
+      </div>
+  </div>
 </div>
 
 <div class="container">
@@ -225,7 +228,7 @@
       jsonData[key] = value;
     });
 
-    fetch('https://localhost:3000/photo/api/appointment/appointment', {
+    fetch('http://localhost:3000/api/appointment/appointment', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -293,7 +296,7 @@
 </div>
 
 
-<div class="container-fluid footer" style="margin-top: -47px; color: black;">
+<div class="container-fluid footer" style="margin-top: -47px; color: #7e7e7e;">
     <div class="container">
         <div class="row" style="color: #000;">
             <div class="col-md-4">
@@ -302,7 +305,7 @@
                 <div class="socialfooter">
                     <span><a href="https://instagram.com/dayofborn?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa fa-instagram"></i></a></span>&nbsp;
                     <span><a href="https://www.facebook.com/Dayofborn?mibextid=LQQJ4d"><i class="fa fa-facebook"></i></a></span>&nbsp;
-                    <span><a href="https://youtube.com/@dayofborn#DOB3440"><i class="fa fa-youtube"></i></a></span>&nbsp;
+                    <span><a href="https://www.youtube.com/@dayofborndob3440"><i class="fa fa-youtube"></i></a></span>&nbsp;
                     <span><a href="https://wa.me/919573796339"><i class="fa fa-whatsapp"></i></a></span>
                 </div>
             </div>

@@ -27,7 +27,7 @@
     margin-top: 20px;
     
 }
-.container .btn.btn-shutter-black {
+.container .btn.btn-shutter-#7e7e7e {
     border: 1px solid #000; /* Add or override the border for this specific button */
 }
 
@@ -39,7 +39,7 @@
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: #7e7e7e;
     border: 1px solid #000;
     transition: left 0.3s ease-in-out; /* Only transition the 'left' property */
     z-index: -1;
@@ -210,7 +210,7 @@
 .name {
 height:40px;
   color: rgb(5, 4, 4);
-  border: 1px solid black;
+  border: 1px solid #7e7e7e;
   font-size: 18px;
  
   padding: 10px 20px;
@@ -257,7 +257,7 @@ background-color: white;
     transition: padding 0.6s;
 }
 .nav-item .nav-link{
-    color: black;
+    color: #7e7e7e;
     font-size: 17px;
     font-family: 'Montserrat';
     text-transform: uppercase;
@@ -301,7 +301,7 @@ background-color: white;
     line-height: 43px;
 }
 .dropdown-menu li a {
-    color: black;
+    color: #7e7e7e;
     text-decoration: none;
     padding-left: 15px;
 }
@@ -432,6 +432,7 @@ background-color: white;
 }
 .head h2{
     margin-top: 40px;
+    color :#3c3950;
 }
 .head p{
     text-align: justify;
@@ -537,7 +538,7 @@ background-color: white;
 
 /* Styles for the text */
 .overlay .text {
-    color: black;
+    color: #7e7e7e;
     font-size: 14px;
     margin-top: 5px;
     padding-left: 20px;
@@ -572,7 +573,7 @@ background-color: white;
 
 /* Styles for the text */
 .overlay1 .texting {
-    color: black;
+    color: #7e7e7e;
     font-size: 14px;
     margin-top: 5px;
    margin-right: 30px;
@@ -595,6 +596,7 @@ background-color: white;
 .service h2{
     font-family: 'Montserrat';
     font-weight: normal;
+    color :#3c3950;
 }
 /* .service button{
     padding: 10px;
@@ -609,7 +611,7 @@ background-color: white;
     text-align: center;
     padding: 50px;
     font-weight: normal;
-    font-family: 'Montserrat';
+
 }
 .line{
     width: 40px;
@@ -647,6 +649,7 @@ background-color: white;
     Height: 500px;
     margin: 8px;
     border: none;
+    color:#7e7e7e
 }   
 .container .btns{
     text-align: center;
@@ -711,7 +714,7 @@ background-color: white;
   
   .accordion-content {
     padding-left: 2.3125em;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed #7e7e7e;
     margin: 10px;
     text-align: justify;
   }
@@ -776,6 +779,7 @@ background-color: white;
     margin-top: 55px;
     color: #0090D2;
     padding-bottom: 19px;
+    
 }
 .footerpara{
     font-size: 13px;
@@ -918,6 +922,7 @@ background-color: white;
  .head h2{
     text-align: center;
     font-family: 'Montserrat';
+    color :#3c3950;
  }
 @media (max-width: 568px) {
 .slider,
@@ -995,7 +1000,7 @@ background-color: white;
     content: "";
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    border-top: 5px solid black; /* You can change the color to match your design */
+    border-top: 5px solid #7e7e7e; /* You can change the color to match your design */
 }
 
 .text-container{

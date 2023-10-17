@@ -10,7 +10,7 @@
     margin-right: 50px;
 }
 .nav-item .nav-link{
-    color: black;
+    color: #7e7e7e;
     font-size: 17px;
        font-family: 'Montserrat';
        text-transform: uppercase;
@@ -61,7 +61,7 @@
     line-height: 43px;
 }
 .dropdown-menu li a {
-    color: black;
+    color: #7e7e7e;
     text-decoration: none;
     padding-left: 15px;
 }
@@ -342,6 +342,10 @@
 .dropdown-menu .back-button a:hover {
     background-color: #f4f6f7;
 }
+
+.bat{
+    padding-top:20px;
+}
 } 
 
 
@@ -416,3 +420,5 @@
     opacity: 1;
     pointer-events:all;
 }
+
+

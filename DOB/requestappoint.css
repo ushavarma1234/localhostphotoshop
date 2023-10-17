@@ -21,7 +21,7 @@
     transition: padding 0.6s;
 }
 .nav-item .nav-link{
-    color: black;
+    color: #7e7e7e;
     font-size: 17px;
     font-family: 'Montserrat';
     text-transform: uppercase;
@@ -65,7 +65,7 @@
     line-height: 43px;
 }
 .dropdown-menu li a {
-    color: black;
+    color: #7e7e7e;
     text-decoration: none;
     padding-left: 15px;
 }
@@ -94,6 +94,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+   
 }
 .card{
     display: flex;
@@ -103,6 +104,8 @@
     padding-top: 45px;
     padding-left: 40px;
        font-family: 'Montserrat';
+       color:#3c3c3c;
+     
 }
 .anchor{
     display: flex;
@@ -215,7 +218,7 @@
   
   .accordion-content {
     padding-left: 2.3125em;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed #7e7e7e;
     margin: 10px;
     text-align: justify;
   }
@@ -634,7 +637,7 @@ button[type="submit"] {
         content: "";
         border-left: 5px solid transparent;
         border-right: 5px solid transparent;
-        border-top: 5px solid black; /* You can change the color to match your design */
+        border-top: 5px solid #7e7e7e; /* You can change the color to match your design */
     }
     
     .text-container{

@@ -8,9 +8,8 @@ const connection = mysql.createConnection({
   host: "localhost",
   user: "root", // Replace with your MySQL username
   password: "1234", // Replace with your MySQL password
-  database: "photography",
+  database: "photo",
 });
-
 router.use(cors());
 // Save a new contact
 router.post("/contact", (req, res) => {

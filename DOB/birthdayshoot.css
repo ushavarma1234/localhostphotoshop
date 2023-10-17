@@ -21,7 +21,7 @@
     transition: padding 0.6s;
 }
 .nav-item .nav-link{
-    color: black;
+    color: #7e7e7e;
     font-size: 17px;
     font-family: 'Montserrat';
     text-transform: uppercase;
@@ -65,7 +65,7 @@
     line-height: 43px;
 }
 .dropdown-menu li a {
-    color: black;
+    color: #7e7e7e;
     text-decoration: none;
     padding-left: 15px;
 }
@@ -232,7 +232,7 @@ a {
   
   .accordion-content {
     padding-left: 2.3125em;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed #7e7e7e;
     margin: 10px;
     text-align: justify;
   }
@@ -302,6 +302,7 @@ input[type=text]:focus, input[type=password]:focus {
 }
 .heading h3{
     padding-bottom: 10px;
+    color: #3c3950
 }
 .love{
     text-align: center;
@@ -511,14 +512,29 @@ input[type=text]:focus, input[type=password]:focus {
     pointer-events:all;
 }
 
+/* Style for the navbar links */
+nav a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s;
+  }
+  
+  /* Highlight on hover */
+  nav a:hover {
+    color: #007bff;
+  }
+  
+  /* Highlight for the selected link */
+  .nav-selected {
+    color: #007bff;
+  }
+  
 
 
 
 
 
-
-
-@media screen and (max-width: 568px) {
+  @media screen and (max-width: 568px) {
     .navbar-nav {
         flex-direction: column;
         margin-right: 0;
@@ -588,7 +604,7 @@ input[type=text]:focus, input[type=password]:focus {
     content: "";
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    border-top: 5px solid black; /* You can change the color to match your design */
+    border-top: 5px solid #7e7e7e; /* You can change the color to match your design */
 }
 
 .btn.btn-outline-dark {
@@ -600,24 +616,22 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 .btn.btn-outline-dark {
-    width: 100%;
+    width: 100%; /* Make the buttons take up the full width */
     margin: 5px 0;
-    font-size: 13px; 
-   
-} 
+    font-size: 13px; /* Add some vertical spacing between buttons */
+    /* Add any other mobile-specific styles here */
+}
 .site{
     display: none;
 }
-.anchor{
-    margin-bottom: 20px;
+.footer{
+    padding-top:100px;
 }
-h3{
-    display: none;
-}
-.card p{
-    text-align: justify;
+.bat{
+    padding-top:30px;
 }
 }
+
 
 
 

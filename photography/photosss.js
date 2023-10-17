@@ -3,15 +3,12 @@ const router = express.Router();
 const mysql = require("mysql2");
 const multer = require("multer");
 const sharp = require("sharp");
-
 const connection = mysql.createConnection({
   host: "localhost",
   user: "root", // Replace with your MySQL username
   password: "1234", // Replace with your MySQL password
-  database: "photography",
+  database: "photo",
 });
-
-
 // Set up multer for handling image uploads
 const upload = multer({ storage: multer.memoryStorage() });
 

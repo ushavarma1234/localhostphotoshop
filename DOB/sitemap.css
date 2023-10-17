@@ -22,7 +22,7 @@
   transition: padding 0.6s;
 }
 .nav-item .nav-link{
-  color: black;
+  color: #7e7e7e;
   font-size: 17px;
   font-family: 'Montserrat';
   text-transform: uppercase;
@@ -66,7 +66,7 @@
   line-height: 43px;
 }
 .dropdown-menu li a {
-  color: black;
+  color: #7e7e7e;
   text-decoration: none;
   padding-left: 15px;
 }
@@ -595,7 +595,7 @@ h1 {
 table {
   width: 80%;
   border-collapse: collapse;
-  border: 1px solid black;
+  border: 1px solid #7e7e7e;
   margin: auto;
   margin-top: 50px;
 }
@@ -615,7 +615,7 @@ tr {
 
 /* Border for rows using td elements */
 tr td {
-  border-top: 1px solid black;
+  border-top: 1px solid #7e7e7e;
 }
 td a {
   text-decoration: none; /* Remove underline */
@@ -762,7 +762,7 @@ table a:hover::after {
   content: "";
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 5px solid black; /* You can change the color to match your design */
+  border-top: 5px solid #7e7e7e; /* You can change the color to match your design */
 }
 .MultiCarousel .MultiCarousel-inner .item {
   flex: 0 0 100%;
@@ -852,7 +852,7 @@ table a:hover::after {
   content: "";
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 5px solid black; /* You can change the color to match your design */
+  border-top: 5px solid #7e7e7e; /* You can change the color to match your design */
 }
 .MultiCarousel .MultiCarousel-inner .item {
   flex: 0 0 100%;
@@ -887,6 +887,13 @@ table a:hover::after {
   display:none;
 }
 
+.footer{
+  padding-top: 80px;
+}
+
+.bat{
+  padding-top: 30px;
+}
 
 } 
 

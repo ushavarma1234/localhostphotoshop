@@ -6,15 +6,12 @@ const sharp = require("sharp");
 const multer = require("multer");
 const upload = multer({ storage: multer.memoryStorage() });
 
-
 const connection = mysql.createConnection({
   host: "localhost",
   user: "root", // Replace with your MySQL username
   password: "1234", // Replace with your MySQL password
-  database: "photography",
+  database: "photo",
 });
-
-
 router.use(cors());
 // router.post("/stories", upload.single("album"), (req, res) => {
 //   const { Date, title, subtitle } = req.body;
